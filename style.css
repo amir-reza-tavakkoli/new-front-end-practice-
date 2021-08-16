@@ -96,6 +96,11 @@ main svg {
     fill: pink;
 }
 
+@media only screen and (max-height: 500px) {
+    body>nav svg{width: 16px;
+    height: 16px;}
+    body>nav li{margin-bottom: 6px;}
+}
 main div>button {
     background-color: ;
     padding: 0px;
